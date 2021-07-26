@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\GrpcBroadcast\GrpcBroadcast.Client.Core\GrpcBroadcast.Client.Core.csproj" />
+      <ProjectReference Include="..\..\SampleData\SampleData\SampleData.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DevExpress.Xpo" Version="21.1.3" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Test.Application</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.WindowsDesktop.Wpf" Version="20.2.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GrpcBroadcast\GrpcBroadcast.Client.Core\GrpcBroadcast.Client.Core.csproj" />
+    <ProjectReference Include="..\..\SampleData\SampleData\SampleData.csproj" />
+  </ItemGroup>    
+</Project>
